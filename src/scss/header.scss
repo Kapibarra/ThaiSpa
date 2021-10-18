@@ -25,14 +25,30 @@
     }
 }
 
-.header__main-article {
+.header__main-article-wrapper {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
 }
 
+.header__main-article {
+    width: 100%;
+    max-width: 600px;
+    padding-bottom: 190px;
+}
+
 .header__title {
     font-family: $mainfont;
     font-size: $title;
+    font-weight: $regular;
     color: $white;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.header__main-text {
+    font-size: $subtitle;
+    color: $white;
+    font-family: $mainfont;
+    margin-bottom: 20px;
 }
