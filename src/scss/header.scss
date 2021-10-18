@@ -1,0 +1,38 @@
+.header__wrapper {
+    background-image: url(../../src/img/mainbanner.png);
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__inner-wrapper {
+    display: flex;
+}
+
+.header__navigation ul {
+    display: flex;
+    list-style: none;
+    & li {
+        color: $white;
+        margin-right: 28px;
+    }
+}
+
+.header__main-article {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header__title {
+    font-family: $mainfont;
+    font-size: $title;
+    color: $white;
+}
