@@ -60,5 +60,28 @@
     & .card__info {
         display: flex;
         justify-content: space-between;
+        & .card__info-time {
+            border-radius: 40px;
+            background-color: $lightgrey;
+            padding: 10px;
+            font-size: $subtitle;
+            font-weight: $light;
+            color: $grey;
+            & .card__info-time-item {
+                background-color: $iris;
+                color: $white;
+                border-radius: 40px;
+                padding: 5px 13px;
+            }
+        }
+        & .card__info-price {
+            display: flex;
+            align-items: center;
+            & .card__info-price-item {
+                font-size: $mediumtext;
+                font-weight: $regular;
+                color: $black;
+            }
+        }
     }
 }
