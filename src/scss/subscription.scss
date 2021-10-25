@@ -1,0 +1,78 @@
+.subscription {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.subscription__title {
+    width: 194px;
+    height: 48px;
+    margin-top: 60px;
+    border-radius: 5px;
+    background-color: $iris;
+    color: $white;
+    font-size: $tab;
+    font-weight: $regular;
+    padding: 5px 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.subscription__subtitle {
+    color: $black;
+    font-size: $bigsubtitle;
+    font-weight: $light;
+    margin-block-start: 0em !important;
+    margin-block-end: 0em !important;
+    margin-top: 10px !important;
+}
+
+.subscription__cards-wrapper {
+    margin-top: 40px;
+}
+
+.subscription__card {
+    width: 100%;
+    max-width: 466px;
+    & .sub__card-title {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+        & .card-title-text {
+            margin-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            & h2 {
+                color: $black;
+                font-size: $title;
+                font-weight: $regular;
+            }
+            & p {
+                color: $grey;
+                font-size: $mediumtext;
+                font-weight: $regular;
+            }
+        }
+    }
+    & .subcard__discount {
+        width: 198px;
+        height: 48px;
+        background: $pink;
+        border-radius: 5px;
+        & p {
+            color: $white;
+            font-size: $tab;
+            font-weight: $regular;
+            display: flex;
+            justify-content: center;
+            padding-top: 5px;
+        }
+    }
+    & .subcard__price {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+}

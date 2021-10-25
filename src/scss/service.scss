@@ -9,9 +9,9 @@
     width: 122px;
     height: 48px;
     border-radius: 5px;
-    background-color: #5D5FEF;
+    background-color: $iris;
     & h2 {
-        color: #fff;
+        color: $white;
         display: flex;
         vertical-align: middle;
         font-size: $tab;
