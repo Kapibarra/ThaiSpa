@@ -1,0 +1,19 @@
+.gifts__wrapper {
+    width: 100%;
+    max-width: 1903px;
+    margin-top: 60px;
+    background-image: url(../../src/img/gifts-bg.png);
+    background-repeat: no-repeat;
+}
+
+.gifts {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gifts__image-item {
+    margin-top: -20px;
+}

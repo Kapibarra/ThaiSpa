@@ -104,6 +104,8 @@
         color: $pink;
         background-color: $white;
         margin-top: 10px;
-        &:hover {}
+        &:hover {
+            cursor: pointer;
+        }
     }
 }
