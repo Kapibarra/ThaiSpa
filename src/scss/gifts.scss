@@ -14,6 +14,36 @@
     justify-content: space-between;
 }
 
+.gifts__text-item {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 797px;
+    & .gifts__title {
+        font-family: $mainfont;
+        font-size: $title;
+        font-weight: $regular;
+        color: $white;
+    }
+    & .gifts__subtitle {
+        font-family: $mainfont;
+        font-size: $subtitle;
+        font-weight: $regular;
+        color: $white;
+    }
+    & .gifts__button {
+        font-family: $mainfont;
+        width: 158px;
+        height: 41px;
+        border: 2px solid $white;
+        border-radius: 40px;
+        color: $white;
+        background: rgba(255, 255, 255, 0);
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
 .gifts__image-item {
     margin-top: -20px;
 }
