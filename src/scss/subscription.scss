@@ -29,12 +29,18 @@
 }
 
 .subscription__cards-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin-top: 40px;
 }
 
 .subscription__card {
     width: 100%;
-    max-width: 466px;
+    max-width: 426px;
+    background-color: $lightgrey;
+    border-radius: 40px;
+    padding: 20px;
     & .sub__card-title {
         display: flex;
         flex-direction: row;
@@ -73,6 +79,28 @@
     & .subcard__price {
         display: flex;
         flex-direction: row;
+        align-items: center;
         justify-content: flex-end;
+        & .subcard__info-price-item {
+            color: $black;
+            font-size: $mediumtext;
+            font-weight: $regular;
+        }
+    }
+    & .button-wrapper {
+        display: flex;
+        justify-content: flex-end;
+    }
+    & .subcard__button {
+        display: flex;
+        border: 2px solid $pink;
+        border-radius: 40px;
+        padding: 10px 20px;
+        color: $pink;
+        background-color: $lightgrey;
+        margin-top: 10px;
+        &:hover {
+            cursor: pointer;
+        }
     }
 }
