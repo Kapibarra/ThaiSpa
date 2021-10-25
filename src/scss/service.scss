@@ -35,3 +35,30 @@
         }
     }
 }
+
+.service__subtitle {
+    font-size: $subtitle;
+    font-weight: $regular;
+    color: $grey;
+    max-width: 964px;
+}
+
+.service__cards-wrapper {}
+
+.service__card {
+    width: 100%;
+    max-width: 345px;
+    & .card__title {
+        font-weight: $medium;
+        font-size: $subtitle;
+    }
+    & .card__subtitle {
+        font-size: $text;
+        font-weight: $regular;
+        color: $grey;
+    }
+    & .card__info {
+        display: flex;
+        justify-content: space-between;
+    }
+}
