@@ -81,6 +81,9 @@
             margin-top: 20px;
             width: 129px;
             background-color: $lightgrey;
+            &:hover {
+                cursor: pointer;
+            }
         }
         & .location__card-btn2 {
             border: 2px solid $pink;
@@ -90,6 +93,9 @@
             margin-top: 20px;
             width: 192px;
             background-color: $lightgrey;
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 }
