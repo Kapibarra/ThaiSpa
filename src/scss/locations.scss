@@ -26,9 +26,8 @@
     flex-direction: row;
     flex-wrap: nowrap;
     margin-top: 40px;
-    border-radius: 40px;
-    &.location__card-map {
-        border-radius: 0px 40px 40px 0px;
+    & .location__card-map {
+        border-radius: 40px 0px 0px 40px;
     }
     & .location__card-info {
         padding: 20px;
@@ -76,11 +75,21 @@
         }
         & .location__card-btn {
             border: 2px solid $grey;
+            color: $grey;
             border-radius: 40px;
+            padding: 10px 20px;
+            margin-top: 20px;
+            width: 129px;
+            background-color: $lightgrey;
         }
         & .location__card-btn2 {
             border: 2px solid $pink;
+            color: $pink;
             border-radius: 40px;
+            padding: 10px 20px;
+            margin-top: 20px;
+            width: 192px;
+            background-color: $lightgrey;
         }
     }
 }
