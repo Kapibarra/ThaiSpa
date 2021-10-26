@@ -26,10 +26,16 @@
     flex-direction: row;
     flex-wrap: nowrap;
     margin-top: 40px;
+    border-radius: 40px;
+    &.location__card-map {
+        border-radius: 0px 40px 40px 0px;
+    }
     & .location__card-info {
         padding: 20px;
         display: flex;
         flex-direction: column;
+        background: $lightgrey;
+        border-radius: 0px 40px 40px 0px;
         & .location__card-title {
             font-size: $subtitle;
             font-weight: $medium;
@@ -38,22 +44,43 @@
         }
         & .location__card-adress {
             font-size: $text;
-            font-weight: $medium;
+            font-weight: $regular;
             color: $grey;
             margin-bottom: 10px;
         }
         & .location__card-phone {
-            font-size: $subtitle;
-            font-weight: $medium;
+            font-size: $text;
+            font-weight: $regular;
             color: $link;
             text-decoration: underline;
             margin-bottom: 10px;
         }
         & .location__card-worktime {
             font-size: $text;
-            font-weight: $medium;
+            font-weight: $regular;
             color: $grey;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        & .location__card-subtitle {
+            font-size: $subtitle;
+            font-weight: $medium;
+            color: $black;
+            margin-bottom: 10px;
+        }
+        & .location__card-bonus {
+            font-size: $text;
+            font-weight: $regular;
+            color: $link;
+            text-decoration: underline;
+            margin-bottom: 10px;
+        }
+        & .location__card-btn {
+            border: 2px solid $grey;
+            border-radius: 40px;
+        }
+        & .location__card-btn2 {
+            border: 2px solid $pink;
+            border-radius: 40px;
         }
     }
 }
