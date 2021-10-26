@@ -1,0 +1,59 @@
+.locations {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.location__title {
+    width: 207px;
+    height: 48px;
+    margin-top: 60px;
+    border-radius: 5px;
+    background-color: $iris;
+    color: $white;
+    font-size: $tab;
+    font-weight: $regular;
+    padding: 5px 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.location__card {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 40px;
+    & .location__card-info {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        & .location__card-title {
+            font-size: $subtitle;
+            font-weight: $medium;
+            color: $black;
+            margin-bottom: 20px;
+        }
+        & .location__card-adress {
+            font-size: $text;
+            font-weight: $medium;
+            color: $grey;
+            margin-bottom: 10px;
+        }
+        & .location__card-phone {
+            font-size: $subtitle;
+            font-weight: $medium;
+            color: $link;
+            text-decoration: underline;
+            margin-bottom: 10px;
+        }
+        & .location__card-worktime {
+            font-size: $text;
+            font-weight: $medium;
+            color: $grey;
+            margin-bottom: 15px;
+        }
+    }
+}
