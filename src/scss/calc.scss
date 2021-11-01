@@ -32,6 +32,39 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-radius: 40px;
+    background-color: $lightgrey;
+    & .card__radio-counters {
+        padding: 60px 0px 60px 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        & .radio__inner-wrapper {
+            margin-bottom: 40px;
+            & .card__radio-title {
+                color: $black;
+                font-size: $tab;
+                font-weight: $light;
+                margin-bottom: 10px;
+            }
+            & .card__radio-subtitle {
+                color: $black;
+                font-size: $subtitle;
+                font-weight: $medium;
+                margin-bottom: 5px;
+            }
+        }
+    }
+    & .card__totalamount {
+        padding-top: 60px;
+        & .amount__title {
+            color: $black;
+            font-size: $title;
+            font-weight: $regular;
+            margin-bottom: 10px;
+            text-align: right;
+        }
+    }
 }
 
 .range input {
