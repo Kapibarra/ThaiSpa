@@ -33,6 +33,8 @@
     flex-direction: row;
     justify-content: space-between;
     border-radius: 40px;
+    max-height: 382px;
+    margin-bottom: 60px;
     background-color: $lightgrey;
     & .card__radio-counters {
         padding: 60px 0px 60px 60px;
@@ -40,7 +42,6 @@
         flex-direction: column;
         justify-content: space-between;
         & .radio__inner-wrapper {
-            margin-bottom: 40px;
             & .card__radio-title {
                 color: $black;
                 font-size: $tab;
@@ -106,6 +107,7 @@
 .range-labels {
     list-style: none;
     padding-inline-start: 0px;
+    margin-block-start: 5px;
     & li {
         position: relative;
         float: left;
