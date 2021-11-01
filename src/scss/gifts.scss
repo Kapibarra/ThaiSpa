@@ -23,15 +23,18 @@
         font-size: $title;
         font-weight: $regular;
         color: $white;
+        margin-top: 60px;
     }
     & .gifts__subtitle {
         font-family: $mainfont;
         font-size: $subtitle;
         font-weight: $regular;
         color: $white;
+        margin-top: 20px;
     }
     & .gifts__button {
         font-family: $mainfont;
+        margin-top: 20px;
         width: 158px;
         height: 41px;
         border: 2px solid $white;
