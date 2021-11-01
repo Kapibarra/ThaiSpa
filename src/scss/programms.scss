@@ -10,4 +10,30 @@
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
+    & .programms__title-wrapper {
+        padding-top: 60px;
+        & h2 {
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            color: $white;
+            font-weight: $regular;
+            font-size: $title;
+            font-family: $mainfont;
+            & img {
+                margin-left: 10px;
+            }
+        }
+    }
+    & .programms__subtitle {
+        max-width: 700px;
+        display: block;
+        margin-right: auto !important;
+        color: $white;
+        font-weight: $regular;
+        font-size: $subtitle;
+        font-family: $mainfont;
+    }
 }
