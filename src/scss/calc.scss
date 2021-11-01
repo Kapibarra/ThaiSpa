@@ -36,6 +36,38 @@
 
 .range input {
     width: 285px;
+    // Thumb
+    &::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        @include rangeThumb;
+    }
+    &::-moz-range-thumb {
+        @include rangeThumb;
+    }
+    &::-ms-thumb {
+        @include rangeThumb;
+    }
+    // Track
+    &::-webkit-slider-runnable-track {
+        @include rangeTrack;
+    }
+    &::-moz-range-track {
+        @include rangeTrack;
+    }
+    &::-ms-track {
+        @include rangeTrack;
+    }
+    &:focus {
+        background: none;
+        outline: none;
+    }
+    &::-ms-track {
+        width: 100%;
+        cursor: pointer;
+        background: $iris;
+        border-color: $iris;
+        color: $iris;
+    }
 }
 
 .range-labels {
@@ -44,9 +76,9 @@
     & li {
         position: relative;
         float: left;
-        margin-right: 43px;
+        margin-right: 38px;
         text-align: center;
-        color: #b2b2b2;
+        color: $grey;
         font-size: $smalltext;
         cursor: pointer;
     }
