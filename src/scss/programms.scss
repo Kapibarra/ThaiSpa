@@ -27,13 +27,30 @@
             }
         }
     }
-    & .programms__subtitle {
-        max-width: 700px;
-        display: block;
-        margin-right: auto !important;
-        color: $white;
-        font-weight: $regular;
-        font-size: $subtitle;
-        font-family: $mainfont;
+    & .programms__subtitle-wrapper {
+        margin-top: 20px;
+        & .programms__subtitle {
+            width: 100%;
+            max-width: 797px;
+            margin-right: 0px;
+            display: flex;
+            color: $white;
+            font-weight: $regular;
+            font-size: $subtitle;
+            font-family: $mainfont;
+        }
+        & button {
+            font-family: $mainfont;
+            margin-top: 20px;
+            width: 158px;
+            height: 41px;
+            border: 2px solid $white;
+            border-radius: 40px;
+            color: $white;
+            background: rgba(255, 255, 255, 0);
+            &:hover {
+                cursor: pointer;
+            }
+        }
     }
 }
