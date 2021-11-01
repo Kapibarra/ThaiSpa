@@ -33,3 +33,21 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+.range input {
+    width: 285px;
+}
+
+.range-labels {
+    list-style: none;
+    padding-inline-start: 0px;
+    & li {
+        position: relative;
+        float: left;
+        margin-right: 43px;
+        text-align: center;
+        color: #b2b2b2;
+        font-size: $smalltext;
+        cursor: pointer;
+    }
+}
