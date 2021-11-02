@@ -61,4 +61,10 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
+    & .about__card-link {
+        color: $link;
+        &:hover {
+            cursor: pointer;
+        }
+    }
 }
