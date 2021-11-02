@@ -30,9 +30,26 @@
             padding-inline-start: 0px;
             & li {
                 margin-bottom: 28px;
-                color: $white;
+                & a {
+                    color: $white;
+                    text-decoration: none;
+                    font-size: $link-size;
+                }
             }
         }
+    }
+}
+
+.footer__logo-social {
+    margin-top: 20px;
+    color: $white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: $subtitle;
+    font-weight: $regular;
+    & img {
+        margin-right: 3px;
     }
 }
 
@@ -63,7 +80,7 @@
             margin-top: 7px;
         }
         & a {
-            color: $link;
+            color: $white;
             font-size: $smalltext;
             font-weight: $regular;
             margin-top: 7px;
