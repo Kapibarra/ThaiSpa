@@ -57,11 +57,14 @@
     & .card__title {
         font-weight: $medium;
         font-size: $subtitle;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
     & .card__subtitle {
         font-size: $text;
         font-weight: $regular;
         color: $grey;
+        margin-bottom: 10px;
     }
     & .card__info {
         display: flex;
